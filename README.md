@@ -2,11 +2,16 @@
 VERSÃO 1.0
 
 ## OBJETIVO DO PROJETO:
--Fazer um sistema de Login que redirecione para uma página ficticia utilizando o banco de dados MySQL.
+-Fazer um sistema de Login que redirecione para uma página ficticia utilizando o banco de dados MySQL. 
+
 -Os seus detalhes podem ser descritos:
+
 -Realizar a conexão com um banco de dados fictício (do MySQL);
+
 -Verificar se os dados enviados pelo usuário (usuário e senha) constam no banco de dados;
+
 -Caso constem, iniciar sessão e redirecionar para a página do usuário fictícia;
+
 -Caso não constem, exibir uma mensagem de erro.
 
 ## COMO INICIAR O PROJETO:
