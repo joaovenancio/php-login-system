@@ -16,6 +16,7 @@ VERSÃO 1.0
 
 ## COMO INICIAR O PROJETO:
 -Editar as informações no arquivo processamentoBanco.php ($nomedoserver, $username e $senha) para colocar as informações do seu Banco de Dados e no pagDoUsuario.php ( <th> X </th>; echo "<td>".$estudante ['X']."</td>"; onde X é um valor do seu banco de dados que queira mostrar), para printar dados do usuario logado;
+
 -Começar o site pelo login.php.
 
 ## AUTOR: João Vítor Demaria Venâncio.
