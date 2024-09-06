@@ -1,22 +1,22 @@
-# Sistema de Login
-VERSÃO 1.0
+# Login System
+VERSION 1.0
 
-## OBJETIVO DO PROJETO:
--Fazer um sistema de Login que redirecione para uma página ficticia utilizando o banco de dados MySQL. 
+## PROJECT GOALS:
+- Create a Login system that redirects to a fictitious page using the MySQL database.
 
--Os seus detalhes podem ser descritos:
+- The system:
 
--Realizar a conexão com um banco de dados fictício (do MySQL);
+  - Establishes a connection with a fictitious MySQL database;
 
--Verificar se os dados enviados pelo usuário (usuário e senha) constam no banco de dados;
+  - Check if the data provided by the user (username and password) is present in the database;
 
--Caso constem, iniciar sessão e redirecionar para a página do usuário fictícia;
+  - If the data is present, start the session and redirect to the user's fictitious page;
 
--Caso não constem, exibir uma mensagem de erro.
+  - If the data is not present, display an error message.
+  - 
+## HOW TO RUN:
+- Edit the information in the file processamentoBanco.php ($servername, $username, and $password) to input your Database information, and X in pagDoUsuario.php (<th> X </th>; echo "<td>".$student['X']."</td>";) to print a value from your database of the logged-in user;
 
-## COMO INICIAR O PROJETO:
--Editar as informações no arquivo processamentoBanco.php ($nomedoserver, $username e $senha) para colocar as informações do seu Banco de Dados e no pagDoUsuario.php ( <th> X </th>; echo "<td>".$estudante ['X']."</td>"; onde X é um valor do seu banco de dados que queira mostrar), para printar dados do usuario logado;
+- Start the website with login.php.
 
--Começar o site pelo login.php.
-
-## AUTOR: João Vítor Demaria Venâncio.
+## AUTHOR: João Vítor Demaria Venâncio.
