@@ -13,7 +13,7 @@ VERSION 1.0
   - If the data is present, start the session and redirect to the user's fictitious page;
 
   - If the data is not present, display an error message.
-  - 
+
 ## HOW TO RUN:
 - Edit the information in the file processamentoBanco.php ($servername, $username, and $password) to input your Database information, and X in pagDoUsuario.php (<th> X </th>; echo "<td>".$student['X']."</td>";) to print a value from your database of the logged-in user;
 
